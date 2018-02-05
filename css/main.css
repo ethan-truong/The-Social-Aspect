@@ -1,13 +1,10 @@
 
-
 .wrapper {
 	width: 100%; 
 	overflow: hidden;
     margin: auto;
 
 }
-
-
 
 /*SIDEBAR*/
 
@@ -19,10 +16,6 @@
 	position:fixed
 }
 
-
-
-
-
 .box { 
 	border: 1px solid #ababab;
 	width: 170px;
@@ -31,7 +24,6 @@
 	padding-left: 0px;
 	padding-top:5px;
 	padding-bottom:5px;
-
 }
 
 .menu {
@@ -53,6 +45,7 @@
 #tsa-logo {
 	width: 140px;
 }
+
 .social-logo {
     display:inline-block;
     width: 25px;
@@ -61,16 +54,12 @@
 	margin-bottom: 5px;     
 }
 
-
 /*IMAGE GRID*/
 .products{
 	margin-top: 40px;
 	margin-left:250px;
-	align-content: center;
-		
+	align-content: center;	
 }
-
-
 
 .row {
     display: -ms-flexbox; /* IE10 */

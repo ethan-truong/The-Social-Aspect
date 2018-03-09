@@ -4,30 +4,5 @@ void 0!==c?null===c?void r.removeAttr(a,b):e&&"set"in e&&void 0!==(d=e.set(a,c,b
 $(document).ready(function() {
 	var picture = "images/placeholder1.jpg";
 	$("body").fadeIn(2000);
-	$('.product').click(function() {
-		/* sendImgSrc(this); */
-	});
+	$(".pictures").append('<img src="' + picture + '"/>');
 });
-
-function sendImgSrc(image) {
-	picture = $(image).attr('src');
-	alert(picture);
-}
-
-/*
-productSelector();
-
-function productSelector() {
-	
-
-
-	var products = document.getElementsByClassName("product");
-			alert(products.length);
-	
-	for (var i = 0; i < products.length; i++) {
-		products[i].addEventListener('click', function() {
-			alert('blah');
-		}, false);
-	}  
-}
-*/

@@ -1,0 +1,17 @@
+
+body {
+	display: none;
+}
+
+.pictures {
+	height: 600px;
+	/* width: 40%; */
+	margin: auto;
+	margin-top: 150px;
+	background-color: lightgrey;
+}
+
+.pictures img {
+	height: 100%;
+	width: 100%;
+}
